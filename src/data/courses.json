@@ -1,0 +1,89 @@
+[
+  {
+    "id": "html-css",
+    "title": "Diseño Web Moderno con HTML5 y CSS3",
+    "priceFull": 30.00,
+    "priceOffer": 20.00,
+    "category": "Frontend",
+    "checkoutUrl": "https://pay.hotmart.com/C90165263E?bid=1779240356696",
+    "modules": [
+      "Módulo 1: Arquitectura y Semántica Web (SEO On-Page y accesibilidad reglas ARIA).",
+      "Módulo 2: Estilos Avanzados, selectores complejos y variables nativas de CSS.",
+      "Módulo 3: Sistemas de Layouts modernos dominando Flexbox y CSS Grid a fondo.",
+      "Módulo 4: Responsive Web Design con estrategias Mobile-First para cualquier pantalla.",
+      "Módulo 5: Frameworks del Mercado aprendiendo la integración práctica de Bootstrap 5."
+    ]
+  },
+  {
+    "id": "js-basico",
+    "title": "Desarrollo Web con JavaScript (Inicial a Intermedio)",
+    "priceFull": 50.00,
+    "priceOffer": 35.00,
+    "category": "Frontend",
+    "checkoutUrl": "https://pay.hotmart.com/B90176948X?bid=1779241477659",
+    "modules": [
+      "Módulo 1: Fundamentos y Lógica de Programación (variables, control de flujo y ciclos).",
+      "Módulo 2: Estructuras de Datos, Scope, funciones y Funciones Flecha (Arrow Functions).",
+      "Módulo 3: Dominio del DOM para selección, modificación y captura de eventos interactivos.",
+      "Módulo 4: Introducción a ECMAScript 6+ (Destructuring, Spread Operator y métodos de arrays)."
+    ]
+  },
+  {
+    "id": "js-avanzado",
+    "title": "JavaScript Desarrollo Web Avanzado",
+    "priceFull": 70.00,
+    "priceOffer": 45.00,
+    "category": "Frontend",
+    "checkoutUrl": "https://pay.hotmart.com/X90183384V?bid=1779241594431",
+    "modules": [
+      "Módulo 1: Programación Asíncrona (Event Loop, Promesas y sintaxis async/await).",
+      "Módulo 2: Consumo de Datos y APIs conectando servidores externos mediante API Fetch.",
+      "Módulo 3: Persistencia de Datos Localizada gestionando localStorage y sessionStorage.",
+      "Módulo 4: JS Avanzado (Clases, herencia, POO, manejo de errores try/catch y ES Modules)."
+    ]
+  },
+  {
+    "id": "nodejs",
+    "title": "Ingeniería Backend con Node.js",
+    "priceFull": 95.00,
+    "priceOffer": 70.00,
+    "category": "Backend",
+    "checkoutUrl": "https://pay.hotmart.com/N90186929Q?bid=1779241332165",
+    "modules": [
+      "Módulo 1: Entorno Global de Node, arquitectura asíncrona de hilos y gestión con npm.",
+      "Módulo 2: Servidores Web con Express, sistemas de ruteo y uso de Middlewares avanzados.",
+      "Módulo 3: Arquitectura limpia estructurada bajo el patrón de diseño de software MVC.",
+      "Módulo 4: Bases de Datos Relacionales conectando MySQL a través del ORM Sequelize para CRUDs."
+    ]
+  },
+  {
+    "id": "ciberseguridad-cero",
+    "title": "Especialización: Seguridad Informática desde Cero (Nivel 1)",
+    "priceFull": 29.00,
+    "priceOffer": 29.00,
+    "category": "Ciberseguridad",
+    "checkoutUrl": "https://pay.hotmart.com/N87193171M?off=vwudxctv&ref=H105915525A&bid=1779242041473",
+    "checkoutFinanced": "https://pay.hotmart.com/N87193171M?off=0b98errk&ref=H105915525A&bid=1779242134174",
+    "modules": [
+      "Módulo 1: Fundamentos de Ciberseguridad, triada CIA y laboratorios con Máquinas Virtuales.",
+      "Módulo 2: Auditorías de Red, análisis de protocolos y escaneos con Nmap y Wireshark.",
+      "Módulo 3: Ingeniería Social, anatomía de ataques de Phishing y despliegue ético de Malware.",
+      "Módulo 4: Enfoque 100% Práctico estructurado en 66 clases detalladas y más de 7 horas de laboratorios."
+    ]
+  },
+  {
+    "id": "ciberseguridad-experto",
+    "title": "Especialización: Experto en Ciberseguridad (Nivel 2)",
+    "priceFull": 39.00,
+    "priceOffer": 39.00,
+    "category": "Ciberseguridad",
+    "checkoutUrl": "https://pay.hotmart.com/V93195644H?off=o71g235z&ref=H105946415B&bid=1779412009197",
+    "checkoutFinanced": "https://pay.hotmart.com/V93195644H?off=or815dzr&ref=H105946415B&bid=1779412155790",
+    "modules": [
+      "Módulo 1: Gestión de Vulnerabilidades y explotación ética con Metasploit Framework.",
+      "Módulo 2: Análisis Avanzado de Amenazas usando VirusTotal y auditoría de credenciales filtradas.",
+      "Módulo 3: Anonimato, Privacidad y Redes Cifradas configurando VPNs, Proxies y la red Tor.",
+      "Módulo 4: Orientación Profesional para certificaciones del sector y reportes técnicos de Pentesting."
+    ]
+  }
+]

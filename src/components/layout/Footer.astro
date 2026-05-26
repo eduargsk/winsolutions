@@ -1,0 +1,61 @@
+---
+// src/components/Footer.astro
+import { siteConfig } from "@/config/site";
+
+const currentYear = new Date().getFullYear();
+---
+
+<footer class="border-t border-slate-200 dark:border-slate-900/60 bg-slate-50 dark:bg-slate-950 text-slate-600 dark:text-slate-400 py-12 transition-colors duration-300">
+  <div class="mx-auto max-w-7xl px-6 flex flex-col md:flex-row justify-between items-center gap-8">
+    
+    <div class="flex flex-col items-center md:items-start text-center md:text-left">
+      <span class="text-lg font-black text-slate-900 dark:text-white tracking-wider">
+        {siteConfig.name}
+      </span>
+      <p class="mt-1 text-sm text-slate-500 dark:text-slate-500 max-w-sm">
+        {siteConfig.description}
+      </p>
+    </div>
+
+    <div class="flex items-center gap-6">
+      
+      {siteConfig.socialLinks.instagram && (
+        <a 
+          href={siteConfig.socialLinks.instagram} 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          class="text-sm font-semibold text-slate-500 dark:text-slate-400 hover:text-pink-500 transition-colors duration-200"
+        >
+          Instagram
+        </a>
+      )}
+
+      {siteConfig.socialLinks.tiktok && (
+        <a 
+          href={siteConfig.socialLinks.tiktok} 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          class="text-sm font-semibold text-slate-500 dark:text-slate-400 hover:text-cyan-400 transition-colors duration-200"
+        >
+          TikTok
+        </a>
+      )}
+
+      {siteConfig.socialLinks.twitter && (
+        <a 
+          href={siteConfig.socialLinks.twitter} 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          class="text-sm font-semibold text-slate-500 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white transition-colors duration-200"
+        >
+          X (Twitter)
+        </a>
+      )}
+    </div>
+
+  </div>
+
+  <div class="mx-auto max-w-7xl px-6 mt-8 border-t border-slate-200 dark:border-slate-900/40 pt-8 text-center text-xs text-slate-400 dark:text-slate-500">
+    &copy; {currentYear} {siteConfig.author}. All rights reserved. Potenciado con metodologías de alta ingeniería.
+  </div>
+</footer>
