@@ -1,0 +1,157 @@
+{
+  "html-css": {
+    "title": "Diseño Web Moderno con HTML5 y CSS3",
+    "target": "Aquellas personas que están dando sus primeros pasos en el mundo del desarrollo web, diseño o marketing digital y desean dominar los cimientos de la maquetación profesional sin conocimientos previos.",
+    "objectives": [
+      "Aprenderás las bases fundamentales de cómo funciona la web utilizando etiquetas semánticas (HTML5).",
+      "Darás formato estético e impacto visual moderno utilizando hojas de estilo (CSS3).",
+      "Aprenderás a estructurar de forma limpia barras de navegación, formularios avanzados y secciones multimedia.",
+      "Dominarás los sistemas de diseño responsive avanzados: Flexbox y CSS Grid.",
+      "Aprenderás la integración práctica y avanzada de Bootstrap 5 para acelerar tus flujos de desarrollo."
+    ],
+    "fullModules": [
+      "MOD.1 Bienvenida y explicación de la estructura del curso.",
+      "MOD.2 Fundamentos teóricos: Instalación de VS Code, ¿Qué es HTML? y sus elementos.",
+      "MOD.3 HTML5: Etiquetas semánticas, imágenes, rutas absolutas/relativas, formularios y multimedia.",
+      "MOD.4 CSS: Estilos, selectores, colores, fuentes, fondos y pseudo-clases.",
+      "BONO.1 Cierre del módulo - Proyecto Final Realizado.",
+      "BONO.2 Recursos de apoyo descargables en Drive y GitHub.",
+      "BONO.3 Flexbox: Conceptos técnicos, aplicaciones y práctica real.",
+      "BONO.4 CSS Grid: Conceptos, aplicaciones y usos prácticos en interfaces.",
+      "MOD.5 Bootstrap-5: Conceptos técnicos, layouts y aplicaciones prácticas avanzados."
+    ]
+  },
+  "js-basico": {
+    "title": "Desarrollo Web con JavaScript (Inicial a Intermedio)",
+    "target": "Estudiantes y maquetadores que ya conocen HTML y CSS, y quieren dar el salto definitivo hacia la programación web dotando a sus interfaces de lógica, dinamismo, eventos e interactividad real.",
+    "objectives": [
+      "Dominarás la sintaxis esencial de JavaScript: variables, operadores aritméticos y lógicos.",
+      "Aprenderás a controlar el flujo de tus aplicaciones con estructuras de control condicionales y bucles (for, while, do..while).",
+      "Aprenderás a crear funciones declaradas, expresadas y Arrow functions manejando el Scope correctamente.",
+      "Manipularás e interactuarás con cada uno de los elementos de tus documentos HTML por medio del DOM (Modelo de Objetos del Documento).",
+      "Aprenderás a aplicar estilos dinámicos, gestionar clases de CSS y escuchar eventos del usuario en tiempo real."
+    ],
+    "fullModules": [
+      "MOD.1 Introducción al lenguaje y configuración de herramientas a utilizar.",
+      "MOD.2 Conociendo el lenguaje e incorporación en un archivo HTML.",
+      "MOD.3 Primeras interacciones: Variables (var, let, const), tipos de datos y operadores.",
+      "MOD.4 Interactuando con el lenguaje: alert(), prompt() y confirm().",
+      "MOD.5 Estructuras de control: Sentencias condicionales (if, else, switch) y bucles.",
+      "MOD.6 Funciones: Declaradas, expresadas, Arrow functions y Scope de variables.",
+      "MOD.7 Callbacks y sus aplicaciones fundamentales.",
+      "MOD.8 Métodos avanzados de strings.",
+      "MOD.9 Plantillas literarias e interpolación de expresiones (Template Literals).",
+      "MOD.10 Arrays: Simples, multidimensionales y recorridos con ciclos.",
+      "MOD.11 Métodos esenciales de los arrays (.push, .pop, .shift, .unshift, .slice).",
+      "MOD.12 Entendiendo el Objeto window y el objeto document.",
+      "MOD.13 Modelo de Objeto del Documento (DOM) y Selectores avanzados.",
+      "MOD.14 Modificando el DOM de forma interactiva: innertext e innerhtml.",
+      "MOD.15 Aplicando estilos dinámicos desde JavaScript.",
+      "MOD.16 Aplicando y gestionando clases de CSS dinámicamente.",
+      "MOD.17 Trabajando con eventos y capturas del usuario.",
+      "MOD.18 Modificando atributos de elementos HTML en tiempo real.",
+      "BONO.1 Desarrollo completo del Proyecto Final práctico.",
+      "BONO.2 Material de apoyo de las clases listo en Drive y GitHub."
+    ]
+  },
+  "js-avanzado": {
+    "title": "JavaScript Desarrollo Web Avanzado",
+    "target": "Programadores web que tienen una base sólida de JavaScript y necesitan dominar la asincronía, el consumo de datos externos y la persistencia del lado del cliente para construir aplicaciones profesionales.",
+    "objectives": [
+      "Aprenderás a controlar el tiempo en tus aplicaciones usando Timers (setTimeout, setInterval).",
+      "Dominarás los métodos avanzados de arrays indispensables en el desarrollo moderno (.map, .filter, .reduce, .find).",
+      "Aprenderás a formatear y estructurar datos mediante JSON de forma nativa.",
+      "Dominarás las peticiones asíncronas en la web consumiendo APIs externas por medio de Fetch.",
+      "Aprenderás a guardar información persistente en el navegador usando sessionStorage y localStorage."
+    ],
+    "fullModules": [
+      "MOD.1 Introducción al curso avanzado y herramientas de desarrollo.",
+      "MOD.2 Objeto Date y manipulación de fechas del sistema.",
+      "MOD.3 Timers globales: setTimeOut, setInterval y clearInterval.",
+      "MOD.4 Objetos literales: Construcción avanzada, accesos y utilidades.",
+      "MOD.5 Métodos avanzados de arrays (.forEach, for...of, .map, .filter, .find, .reduce).",
+      "MOD.6 JavaScript Object Notation (JSON.stringify y JSON.parse).",
+      "MOD.7 Manejo de eventos del lado del cliente, preventDefault y validación avanzada de formularios.",
+      "MOD.8 Qué son las APIs (Application Programming Interface) y su rol en la web.",
+      "MOD.9 Pedidos asíncronos en la web moderna - Uso avanzado de API Fetch (Parte I y II).",
+      "MOD.10 Persistencia de datos local: sessionStorage y localStorage (.setItem, .getItem, .clear).",
+      "MOD.11 Objeto location y captura de datos de query string.",
+      "BONO.1 Uso e implementación técnica de librerías en JavaScript."
+    ]
+  },
+  "nodejs": {
+    "title": "Ingeniería Backend con Node.js",
+    "target": "Desarrolladores o estudiantes que ya cuentan con bases sólidas de JavaScript, HTML5 y CSS3, y buscan dominar el entorno del servidor para crear arquitecturas comerciales completas.",
+    "objectives": [
+      "Conocerás todo el ecosistema ofrecido por Node.js, configurando módulos nativos, propios y de terceros (NPM).",
+      "Aprenderás a estructurar proyectos limpios bajo el patrón de arquitectura Modelo Vista Controlador (MVC).",
+      "Dominarás el desarrollo de servidores web eficientes usando el framework Express y el motor de plantillas EJS.",
+      "Aprenderás a diseñar y consultar bases de datos relacionales integrando el motor MySQL de forma nativa.",
+      "Construirás un CRUD robusto mapeando tus tablas con el ORM Sequelize (.create, .update, .destroy).",
+      "Aprenderás a manejar subida de archivos (Multer), validaciones (Express Validator), Middlewares y sesiones/cookies."
+    ],
+    "fullModules": [
+      "MOD.1 Bienvenida al curso y explicación detallada de la ruta de aprendizaje.",
+      "MOD.2 ¿Qué es NodeJS? e Instalación en el sistema.",
+      "MOD.3 Creando un proyecto desde cero y configuración inicial.",
+      "MOD.4 Manejo de módulos nativos, de terceros y módulos propios.",
+      "MOD.5 Métodos de peticiones HTTP fundamentales.",
+      "MOD.6 Patrón de arquitectura de software: Modelo - Vista - Controlador (MVC).",
+      "MOD.7 Creando un proyecto con Express, estructura profesional de carpetas y MVC.",
+      "MOD.8 Rutas: Sistema de ruteo avanzado y rutas parametrizadas.",
+      "MOD.9 Templates Engine: Motor de plantilla EJS, archivos parciales y paso de parámetros.",
+      "MOD.10 Introducción técnica a Bases de Datos.",
+      "MOD.11 Diseñando nuestra base de datos relacional paso a paso.",
+      "MOD.12 Motor MySQL: Estructuras, tablas, claves, consultas y filtros (WHERE, LIKE, ORDER BY).",
+      "MOD.13 Mapeador Relacional ORM: Instalación y configuración de Sequelize, modelos y promesas.",
+      "MOD.14 Construyendo un CRUD integrado con Sequelize (.create, .findAll, .update, .destroy).",
+      "MOD.15 Subiendo archivos al servidor configurando Multer y registrando rutas en la BD.",
+      "MOD.16 Validaciones del lado del servidor usando Express Validator y manejo de errores de entrada.",
+      "MOD.17 Trabajando con Middlewares globales y de aplicación por ruta específica.",
+      "MOD.18 Trabajando con las sesiones de usuarios (session) para persistencia en servidor.",
+      "MOD.19 Guardando y consumiendo datos seguros en el navegador del usuario (cookies).",
+      "MOD.20 Cierre: Proyecto integrado finalizado y funcional."
+    ]
+  },
+  "ciberseguridad-cero": {
+    "title": "Especialización: Seguridad Informática desde Cero (Nivel 1)",
+    "target": "Apasionados de la tecnología, administradores de sistemas o desarrolladores que desean introducirse de manera seria y ética en la seguridad digital, aprendiendo las tácticas de ataque para ejecutar defensas corporativas implacables.",
+    "objectives": [
+      "Aprenderás a configurar laboratorios de pruebas controlados e instalar Kali Linux en entornos virtuales.",
+      "Comprenderás la teoría de redes esencial: Direcciones IP, MAC y los pilares de la seguridad de la información.",
+      "Aprenderás el funcionamiento de la Ingeniería Social y ataques de Phishing para auditar comportamientos y mitigar riesgos.",
+      "Analizarás la creación de Malware táctico (Troyanos y Keyloggers en Python) para auditar vulnerabilidades en sistemas operativos.",
+      "Aprenderás técnicas de auditoría inalámbrica (Wi-Fi), cracking de contraseñas por fuerza bruta y anonimato completo en la red."
+    ],
+    "fullModules": [
+      "01. Instalación de Entorno de Trabajo de Auditoría (Virtual Box, Kali Linux y comandos esenciales de terminal).",
+      "02. Instalación de Herramientas para Programar Scripts (Python 3 y Visual Studio Code).",
+      "03. Teoría fundamental: Direcciones IP, Direcciones MAC y pilares de la Seguridad de la información.",
+      "04. Phishing e Ingeniería Social avanzada (Uso de YPhish, PyPhisher, NGROK, SETOOLKIT, ocultación de enlaces y mitigación).",
+      "05. Malware de Auditoría: Creación de Troyanos, Keyloggers en Python compilados a EXE, accesos inversos en Java, Word y GO.",
+      "06. Ataques en Redes locales y remotas: Uso de Netcat, Web Shells php, reverse shell con Powershell, ataques DOS y ARP Poisoning MITM.",
+      "07. Cracking de Contraseñas y hashes: John The Ripper, uso de Wordlists en Kali, generador Cupp, y fuerza bruta con Hydra (FTP, SSH, Gmail).",
+      "08. Ataques en Redes Inalámbricas (Wi-Fi): Configuración de tarjeta en modo monitor, cambio de dirección MAC, captura de Handshake y DeAuth Attack WPA/WPA2.",
+      "09. Medidas de Seguridad Defensiva: Configuración de Firewalls, detección de WAF, creación de contraseñas robustas y auditoría de Antivirus.",
+      "10. Técnicas de Anonimato Completo en la Red y bases de Hacking Corporativo."
+    ]
+  },
+  "ciberseguridad-experto": {
+    "title": "Especialización: Experto en Ciberseguridad (Nivel 2)",
+    "target": "Usuarios avanzados y profesionales de TI que buscan consolidar conceptos normativos de ciberseguridad corporativa y dominar herramientas ágiles de análisis técnico de archivos y protección de credenciales.",
+    "objectives": [
+      "Dominarás las distinciones operativas entre seguridad de la información, seguridad informática y ciberseguridad.",
+      "Aprenderás a identificar las clasificaciones modernas de amenazas de malware y perfiles de intrusión.",
+      "Utilizarás herramientas profesionales de auditoría rápida como VirusTotal para analizar código y comportamientos sospechosos.",
+      "Aprenderás a auditar la integridad de credenciales y contraseñas corporativas para detectar fugas o debilidades.",
+      "Implementarás configuraciones extremas de privacidad, anonimato y extensiones de seguridad para blindar la navegación web."
+    ],
+    "fullModules": [
+      "01. Introducción: Seguridad de la información, seguridad informática y ciberseguridad. Clasificación de Malwares y amenazas.",
+      "02. Módulo 1: Análisis de Vulnerabilidades y tipos, perfiles de atacantes y salidas laborales reales en la industria.",
+      "03. Módulo 2: Herramientas de auditoría ágil. Análisis de sitios web y archivos con VirusTotal y rastreo de URLs acortadas.",
+      "04. Módulo 3: Comprobación de seguridad en contraseñas corporativas y verificación de credenciales comprometidas en la red.",
+      "05. Módulo 4: Privacidad vs anonimato definitivo y configuración de extensiones avanzadas para navegación segura en internet."
+    ]
+  }
+}
